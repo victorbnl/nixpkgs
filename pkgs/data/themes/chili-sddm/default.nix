@@ -36,6 +36,11 @@ stdenv.mkDerivation {
 
   propagatedBuildInputs = [
     qtgraphicaleffects
+    qtquickcontrols
+  ];
+
+  buildInputs = [
+    qtquickcontrols
   ];
 
   dontWrapQtApps = true;
